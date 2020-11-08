@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.principalDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.box {
+  border-radius: 10px;
+  background-color: antiquewhite;
+  /* padding: 2.5rem; */
+  margin: 2rem 0 2rem 0;
+  /* text-align: center; */
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+  max-width: 80vw;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+break{
+  flex-basis: 100%;
+  width: 0px; 
+  height: 0px; 
+  overflow: hidden;
+}
